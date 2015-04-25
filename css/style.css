@@ -1,0 +1,264 @@
+/*----------------Contenidos generales--------------------*/
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Archivo+Narrow:400,400italic,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+
+* {	font-size: 14px !important;  font-family: 'Archivo Narrow', sans-serif !important; margin:0; padding:0; }
+
+
+.titulo{ font-size:50px !important; text-align:center !important; margin-bottom:0 !important; font-weight:normal !important;}
+.tituloSubrayado{ clear:both; margin:0 auto; width:68px; overflow:auto;}
+.tituloSubrrepeat{ float:left; width:12px; height:12px; border-radius:50%; -moz-border-radius:50%; -webkit-border-radius:50%; border:rgba(224, 224, 224, 0.75) 2px solid; margin:0 3px 12px 3px;}
+
+footer .ui-btn-corner-all,footer .ui-btn.ui-corner-all, footer .ui-slider-track.ui-corner-all, footer.ui-flipswitch.ui-corner-all, footer .ui-li-count{-webkit-border-radius:.0em;border-radius:.0em}
+
+.ui-page-theme-b .ui-btn.ui-btn-active, html .ui-bar-b .ui-btn.ui-btn-active, html .ui-body-b .ui-btn.ui-btn-active, html body .ui-group-theme-b .ui-btn.ui-btn-active, html head+body .ui-btn.ui-btn-b.ui-btn-active, .ui-page-theme-b .ui-checkbox-on:after, html .ui-bar-b .ui-checkbox-on:after, html .ui-body-b .ui-checkbox-on:after, html body .ui-group-theme-b .ui-checkbox-on:after, .ui-btn.ui-checkbox-on.ui-btn-b:after, .ui-page-theme-b .ui-flipswitch-active, html .ui-bar-b .ui-flipswitch-active, html .ui-body-b .ui-flipswitch-active, html body .ui-group-theme-b .ui-flipswitch-active, html body .ui-flipswitch.ui-bar-b.ui-flipswitch-active, .ui-page-theme-b .ui-slider-track .ui-btn-active, html .ui-bar-b .ui-slider-track .ui-btn-active, html .ui-body-b .ui-slider-track .ui-btn-active, html body .ui-group-theme-b .ui-slider-track .ui-btn-active, html body div.ui-slider-track.ui-body-b .ui-btn-active {
+  background-color: #dc557a;
+  border-color: #dc557a;
+  color: #fff;
+  text-shadow: 0 1px 0 #08b;
+}
+
+.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+	display: block;
+	width: 100% \9;
+	max-width: 100%;
+	height: auto
+}
+
+
+.ui-page-theme-a a, html .ui-bar-a a, html .ui-body-a a, html body .ui-group-theme-a a {
+  color: #dc557a;
+  font-weight: normal;
+}
+.ui-page-theme-a a:visited, html .ui-bar-a a:visited, html .ui-body-a a:visited, html body .ui-group-theme-a a:visited {
+  color: #dc557a;
+}
+
+/*----------------header--------------------*/
+
+header h1 img{ width:110px; }
+
+
+/*-----------------Que hacemos--------------------*/
+
+.queTexto p{ font-size:17px !important;}
+
+
+
+/*--------------------Agenda-------------------------*/
+.salonIzq, .salonDer{ width:100% !important; margin:  30px 0 30px 0;   padding-right:10px;   }
+
+.sesion{ width:100%;  background:#dc557a; margin-bottom:2%; display:block; overflow:hidden;  }
+.sesionHora{ width:30%; text-align:center; float:left;   display:block;   color:#F2F2F2;  font-size:20px!important;  padding: 5px; line-height:19px;font-family: 'Fjalla One', sans-serif !important; text-shadow:none!important; }
+.sesionTexto{ width:65%; float:left; padding:1.5%; background:#F2F2F2; display:block; line-height:15px;}
+.sesionTitulo{ }
+.sesionNombre{font-size:16px!important; font-weight:bold;}
+.sesionOrador{ font-size:15px!important; font-style:italic;}
+
+
+
+.altoChico{min-height:50px;}
+.altoChicoHora{ margin-top:10px; }
+
+	.altoMedio{min-height:70px;}
+.altoMedioHora{margin-top:21px; }
+
+
+.altoGrande{min-height:90px;}
+.altoGrandeHora{margin-top:34px; }
+
+.altoXGrande{min-height:110px;}
+.altoXGrandeHora{margin-top:42px; }
+
+
+
+.agendaFecha{ margin:10px; width:60px; }
+
+/*------------caras y voces---------------------*/
+.itemCaras{width:23%; margin-right:2%; float:left; }
+.carasItem2{ display:block;  height:470px; overflow:hidden; text-align:center;}
+.carasImg2 { margin:0 !important;; }
+.carasImg2 img{ width:90%;-webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; -moz-box-shadow:0px 0px 4px 0px rgba(50, 50, 50, 0.4); box-shadow:0px 0px 4px 0px rgba(50, 50, 50, 0.4); display:block;border:10px solid #fff; margin:0 !important;  }
+.carasDatos2{  margin: 10px; padding:0; }
+.carasDatos2 h4{ margin-bottom:0; color:#dc557a; font-size:25px!important; text-shadow:none!important; font-weight:normal!important; }
+.carasCargo2{ font-size:14px!important; color:#999;text-shadow:none!important; font-weight:normal!important;}
+.carasTexto2{ margin-top:10px}
+
+/*-----------------Sponsors-----------------------*/
+.sponsors{ width: 380px; margin:0 auto;}
+.sponsorItem{ width:170px; margin-left: 20px; float:left; text-align:center;}
+.sponsors p, .colaboran p, .participan p{ text-align:center; color:#777; font-size:15px; line-height:18px; height:35px; }
+
+.colaboran{ width: 760px; margin:0 auto;}
+.colaboranItem{ width:170px; margin-left: 20px; float:left; text-align:center;}
+
+
+.participan{ width:960px; margin-left: -20px;margin:0 auto;}
+.participanItem{ width:170px; margin-left: 20px; float:left; text-align:center; margin-bottom:20px;}
+
+
+
+/*----------------ICONOS footer--------------------*/
+
+.ui-icon-quees:after {
+    background: url("../images/iconos-que-es.png") no-repeat  2px 2px; background-size:25px !important;
+}
+.ui-icon-agenda:after {
+    background: url("../images/iconos-agenda.png") no-repeat  2px 2px; background-size:25px !important;
+}
+.ui-icon-caras:after {
+    background: url("../images/iconos-caras.png") no-repeat  2px 2px; background-size:25px !important;
+}
+.ui-icon-lugar:after {
+    background: url("../images/iconos-lugar.png") no-repeat 2px 2px; background-size:25px !important;
+}
+.ui-icon-invitan:after {
+    background: url("../images/iconos-invitan.png") no-repeat  2px 2px; background-size:25px !important;
+}
+
+/*----------------footer--------------------*/
+
+footer .ui-btn-icon-left:after, footer .ui-btn-icon-right:after, footer .ui-btn-icon-top:after, footer .ui-btn-icon-bottom:after, footer .ui-btn-icon-notext:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 29px;
+  height: 29px;
+  left:45%;
+}
+
+
+/*-------------------------------RESPONSIVE---------------------------------------------*/
+/*--------------------------------------------------------------------------------------*/
+/****************************************************************************************/
+/****************************************************************************************/
+
+
+
+
+@media  handheld, screen and (min-width: 1400px) {
+	
+}
+
+
+@media  handheld, screen and (max-width: 1200px) {
+/*---------agenda------------------*/
+	
+	
+
+	
+}
+@media  handheld, screen and (max-width: 1024px) {
+	
+	
+}
+
+@media  handheld, screen and (max-width: 992px) {
+	
+	/*--------caras--------------------*/
+	.itemCaras{width:30%; margin-right:3%;  }
+
+/*-----------------Sponsors-----------------------*/
+.participan, .colaboran{ width: 880px;}
+
+
+
+
+
+}
+
+
+@media  handheld, screen and (max-width: 767px) {
+	
+	/*---------que es---------------------*/
+	#que img{ width:100%!important; float:none!important; margin-right:0 !important;}
+	.queTexto{ width:100% !important;float:none !important; }
+
+
+	/*------------agenda---------------*/
+	.sesionHora{ width:30%;  font-size:18px !important;  }
+	.sesionTexto{ width:64%; }
+	
+	.altoMedio{min-height:70px;}
+.altoMedioHora{margin-top:21px; }
+
+
+.altoGrande{min-height:90px;}
+.altoGrandeHora{margin-top:34px; }
+
+.altoXGrande{min-height:110px;}
+.altoXGrandeHora{margin-top:42px; }
+	
+	
+	/*-----------------Sponsors-----------------------*/
+	.participan, .colaboran{ width: 650px; }
+
+}
+
+@media (max-width: 662px) {	
+	/*--------caras--------------------*/
+	.itemCaras{width:47%; margin-right:3%;  }
+
+
+}
+@media  handheld, screen and (max-width: 580px) {
+	/*-----------------Sponsors-----------------------*/
+	.participan, .colaboran{ width:380px;}
+	.colaboran{ width: 380px;}
+
+
+
+ }
+@media  handheld, screen and (max-width: 480px) {
+	
+	
+	/*------------agenda---------------*/
+	.sesionHora{ width:24%; font-size:15px !important;    }
+	.sesionTexto{ width:69%; }
+	.altoMedio{height:90px;}
+	.altoMedioHora{margin-top:25px; }
+	.altoGrande{height:130px;}
+	.altoGrandeHora{margin-top:42px; }
+	
+	
+	/*--------caras--------------------*/
+	.itemCaras{width:100%; margin-right:0;   }
+	.carasItem2{ height:auto; margin-bottom:20px;}
+	.carasImg2 img{ width:50%; margin:0 auto !important;}
+	
+	/*----------sponsors-------------*/
+	.sponsors{ margin-left: -20px ; margin:0 auto; }
+.altoGrande{min-height:110px;}
+.altoGrandeHora{margin-top:46px; }
+
+ }
+ @media  handheld, screen and (max-width: 390px) {
+	/*------------agenda---------------*/
+	.sesionHora{ width:24%; font-size:14px !important;    }
+	.sesionTexto{ width:67%; }
+	
+	/*-----------------Sponsors-----------------------*/
+	.participan{ width: 170px !important; margin: 0 auto;}
+	.sponsors{ width:170px; margin:0 auto; }
+	.colaboran{ width:170px; margin:0 auto; }
+	
+		
+		.sponsorItem{ margin-left: 0; }
+
+
+
+.colaboranItem{ margin-left: 0;}
+
+
+.participanItem{margin-left: 0;}
+		.altoMedio{min-height:120px;}
+	.altoMedioHora{margin-top:46px; }
+	.altoGrande{min-height:150px;}
+	.altoGrandeHora{margin-top:60px; }
+.altoXGrande{min-height:170px;}
+	.altoXGrandeHora{margin-top:62px; }
+
+ }
+
+
